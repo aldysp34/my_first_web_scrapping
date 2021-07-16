@@ -67,7 +67,7 @@ if __name__ == '__main__':
         find_jobs()
         time_wait = 10
         print(f'Time wait {time_wait} seconds')
-        time.sleep(time_wait) 
+        time.sleep(time_wait * 60) 
 
 
 
